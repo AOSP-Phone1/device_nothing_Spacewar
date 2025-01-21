@@ -80,8 +80,7 @@ sh_binary {
 prebuilt_etc {
     name: "init.recovery.qcom.rc",
     src: "init.recovery.qcom.rc",
-    vendor_ramdisk_available: true,
-    ramdisk_available: true,
+    recovery: true,
 }
 
 prebuilt_etc {
